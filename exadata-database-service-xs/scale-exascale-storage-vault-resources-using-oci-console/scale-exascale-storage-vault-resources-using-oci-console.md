@@ -67,7 +67,7 @@ This lab requires the completion of the following:
 
 ## Task 2: List Exascale Storage Vault Configuration using CLI
 
-To use OCI CLI for this lab, we will be using the ***OCI Cloud Shell tool***. 
+   >**Note:** To use **OCI CLI** for this lab, we will be using the ***OCI Cloud Shell tool***. 
 
 1. Click the **Developer tools** icon in the console header and select ***Cloud Shell*** from the drop-down menu. 
    
@@ -88,6 +88,17 @@ To use OCI CLI for this lab, we will be using the ***OCI Cloud Shell tool***.
 
     </copy>
     ```
+
+   **<u>Description:</u>** 
+
+   The OCI CLI command syntax is: **oci** ***db*** ***exascale-db-storage-vault*** ***get*** ***--exascale-db-storage-vault-id*** ***{ExascaleVaultID}***
+
+   **<u>Where:</u>**
+
+      * ***db*** is the **service type** for the Oracle Database Cloud Services.
+      * ***exascale-db-storage-vault*** is the **resource type** for the Exascale Storage Vault.
+      * ***get*** is the **action** to get information about the Exascale Storage Vault Configuration.
+      * ***--exascale-db-storage-vault-id*** is the **parameter** for the Exascale Storage Vault OCID.
 
    After running the command, you will see similar output below.
 
